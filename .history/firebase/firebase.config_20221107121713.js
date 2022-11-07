@@ -14,7 +14,14 @@ const firebaseConfig = {
   appId: process.env.NEXT_PUBLIC_appId
 };
 
-//in the projec overview, there's actual APIkey
+// apiKey: "AIzaSyBV7guPRSBx51PhLeeuxdquVovPbs6T2PU",
+// authDomain: "login-data-e83a7.firebaseapp.com",
+// projectId: "login-data-e83a7",
+// storageBucket: "login-data-e83a7.appspot.com",
+// messagingSenderId: "84725908392",
+// appId: "1:84725908392:web:93b2fcd12d44e13f34939d"
+
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
